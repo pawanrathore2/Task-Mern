@@ -1,1 +1,1 @@
-# mern-intership
+# mern-internship
