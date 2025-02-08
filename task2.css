@@ -1,0 +1,59 @@
+ body{
+    margin: 0;
+    
+ }
+ .main-div{
+   height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .div2:hover{
+  transform: translateX(200px);
+  box-shadow: 10px 10px 10px 10px;
+ }
+ .div2{
+    width:500px;
+    height: 512px;
+    background-color:white;
+    border: 10px solid purple;
+    transition: all ease-in-out 2s ;
+ }
+ #div-2-h1{
+    font-size: 23px;
+    text-align: center;
+     margin-top: 0px;
+     background-color: rgb(73, 247, 73);
+ }
+ .cemara-div1{
+   padding-left: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .div3{
+   margin-left: 100px;
+   height: 30px;
+ }
+ .div4{
+   margin-left: 230px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+.div5{
+   display: flex;
+   flex-direction: column;
+   margin-left: 340px;
+   gap: 10px;
+}
+.footer-div{
+   font-size: 13px;
+   background-color: rgb(73, 247, 73);
+   height: 68px;
+}
+.footer-div h1{
+   margin-left: 80px;
+}
+ 
