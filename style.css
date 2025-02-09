@@ -36,8 +36,6 @@ header h1{
     
 }
  .main{
-    
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,23 +75,7 @@ left: 43%;
 .first-div2 a{
     text-decoration: none;
 }  
- .about-main{
-    height: 100vh;
-    background-color: wheat;
- }
-#about-main-h1{
-    text-align: center;
-    font-size: 50px;
-}
-.about-img{
-    width: 500px;
-    height: 300px;
-    background-image: url(man-photo-removebg-preview.png);
-    background-size: cover;
-}
-.about-second{
-    display: flex;
-}
+ 
 .section2{
 
     height: 100vh;
@@ -105,16 +87,22 @@ left: 43%;
     font-size: 50px;
      text-align: center;
 }
+.section-task{
+    height: 80vh;
+    background-color: blue;
+}
 .skill-div{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 500px;
+    margin-top: 50px;
+   
+
 }
 .skill{
-  
-    width: 200px;
-    height: 200px;
+  background-color: black;
+    width: 150px;
+    height: 150px;
     font-size: 30px;
     font-weight: 200;
    text-align: center;
@@ -123,6 +111,7 @@ left: 43%;
    align-items: center;
    box-shadow: 1px 1px 1px 1px gray;
    transition: all ease-in-out 1s;
+ 
 }
 .skill:hover{
   box-shadow: 1px 1px 1px 10px gray;
@@ -133,5 +122,31 @@ left: 43%;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
-    
+    background-color: aqua;  
 } 
+.contect{
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contect-div{
+ 
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border: 2px transparent white;
+}
+ label{
+    display: block;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 200;
+ }
+ input{
+    margin-left: 30px;
+    padding: 8px;
+    width: 80%;
+
+ }
