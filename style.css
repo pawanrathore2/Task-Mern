@@ -1,4 +1,8 @@
-*{
+@import "tailwindcss";
+.my-color{
+    background-color: rgb(55, 66, 85);
+}
+ /* *{
     margin: 0;
    
 }
@@ -199,4 +203,4 @@ box-shadow: 4px 4px 4px;
     display: flex;
     padding-top: 40px;
  }
- 
+  */

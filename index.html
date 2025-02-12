@@ -9,111 +9,136 @@ and open the template in the editor.
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- 
-      
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+         
+         
     </head>
     <body>
-        <header id="home">
-           <div class="header-containor">
-               <h1>Portfolio </h1>   
-                      <div class="header-a "> <a href="#home">Home</a>
-                        <a href="#aboutus">About Us</a>
-                     <a href="#skill-section">Skills</a>
-                <a href="#contact-div">Contact</a>
-                <a href="#contact">Reach us</a>
-            </div>
-         
-        </div>
-        </header>
+      <header class="bg-white shadow-md text-gray-900  flex px-14 py-8 justify-between fixed top-0 w-full">
+        <h1 class="text-4xl font-extrabold">Portfolio</h1>
+        <ul class="flex ">
+           <a href="#cover-title">  <li class="me-8">Home</li></a>
+           <a href="#aboutus">  <li class="me-4">About</li></a>
+           <a href="#tasks"> <li class="me-4">Tasks</li></a>
+            <a href="#projects"><li class="me-4">Projects</li></a>
+              <a href="#contact"> <li class="me-4">Contact</li></a>
+        </ul>
+    </header>
 <!--        end of header-->
 <!--home start  -->
-<div class="main">
-         <div class="first">
-                 <h1>Hello</h1>
-                        <h1>I am Pawan </h1>
-                          <br>  
-                      <p>The web Developer</p>              
-                 <div class="first-div2">    
-                     <a href="mailto:rathorpawan287@gmail.com">Hire Me</a>
-                 </div>
-         </div>
+<section id="cover-title"
+class=" bg-[url(portfolio-img2.avif)] bg-no-repeat bg-cover h-screen">
+<div class="flex justify-center items-center   pt-70">
+  <div class="text-white">
+          <h1 class="text-5xl text-center font-extrabold uppercase">Hello</h1>
+                 <h1 class="text-5xl text-center font-extrabold uppercase">I am Pawan </h1>
+                   <br>  
+               <p class="text-2xl text-center font-extrabold ">The web Developer</p>              
+           
+  </div>
 </div>
+ 
+</section>
 <!--home end-->
   <main>
     <!-- about me -->
-    <section id="aboutus" class="about-section">
-                  
-                      <div class="heading-h1"><h1>About ME</h1></div>
-                         <div class="main-div">
-                            <div class="main-para">
-                                <h2 style="padding: 20px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 40px;">Pawan Rathore</h2>
+    <section id="aboutus" class=" h-screen bg-gradient-to-br from-yellow-200  to-indigo-400">
+                         <div class="flex py-24 px-36 justify-evenly items-center">
+                            <div class="hover:shadow-2xl shadow-gray-600 me-8  transition-all duration-700 p-4 h-96">
+                                <h2 class="text-4xl font-bold pb-10">Pawan Rathore</h2>
                                       <h3>
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo architecto ipsa tempora repellat vel? Culpa, dolor dolores. Rem, odit. Molestiae, quos! Perspiciatis asperiores harum maiores autem corrupti quam reiciendis distinctio!
                                         Iste quisquam hic ipsa quia non dolorum nihil beatae, sapiente placeat velit a doloremque repellat. Veritatis quia magni aliquid eos in alias, nam laboriosam mollitia incidunt facilis a, corrupti optio.
                                       </h3>
                             </div>
-                                          <div class="img-div" >
-                                                <img  src="man-photo-removebg-preview.png" width="500px" height="400px"  >
-                                                <div class="icon-div">
-                                                    <i class="fa-brands fa-instagram"></i>
-                                                    <i class="fa-brands fa-facebook"></i>
-                                                    <i class="fa-brands fa-twitter"></i>
-                                                    <i class="fa-brands fa-youtube"></i>
-                                                    <i class="fa-brands fa-linkedin"></i>
+                                          <div class="hover:shadow-2xl shadow-gray-600 me-8  transition-all duration-700  h-96" >
+                                                <img class="" src="man-photo-removebg-preview.png" width="700px" height="500px"  >
+                                                <div class="flex justify-center items-center p-7 text-3xl">
+                                                    <i class="fa-brands fa-instagram pr-4"></i>
+                                                    <i class="fa-brands fa-facebook pr-4"></i>
+                                                    <i class="fa-brands fa-twitter pr-4"></i>
+                                                    <i class="fa-brands fa-youtube pr-4"></i>
+                                                    <i class="fa-brands fa-linkedin pr-4"></i>
                                                 </div>
-                                           </div>
+                                      </div>
                          </div>
-                   
-    
     </section>
     <!-- about me end -->
     <!-- my Task -->
-     <section class="section-task" id="skill-section"> 
-                       <div class="heading-h1"><h1>tasks</h1></div>
-                          <div class="skill-div">
-                           <div class="skill"><a href= "https://pawanrathore2.github.io/Task-Mern/task2.html">Layout Task</a></div>
-                             <div class="skill"><a href= "https://pawanrathore2.github.io/Task-Mern/tailwind-task.html">Pralee technology website</a></div>
-                               <div class="skill">JS</div>
-                                 <div class="skill">MANGODB</div>
+     <section  id="tasks"class="h-screen   text-white bg-gradient-to-br from-blue-300 to-indigo-500"> 
+                       <div class="text-4xl text-center capitalize pb-8 border-b-black"><h1>tasks</h1></div>
+                       <div class="text-3xl text-start capitalize"><h1>Primary task</h1></div>
+                       <div class="flex ">
+                           <div class="w-full m-4 shadow-2xl  shadow-gray-700 rounded-2xl p-12"><a href= "https://pawanrathore2.github.io/Task-Mern/task2.html">Layout Task</a></div>
+                             <div class="w-full m-4 shadow-2xl shadow-gray-700 rounded-2xl p-12"><a href= "https://pawanrathore2.github.io/Task-Mern/tailwind-task.html">Pralee technology website</a></div>
+                               <div class="w-full m-4 shadow-2xl shadow-gray-700 rounded-2xl p-12">JS</div>
+                                 <div class="w-full m-4 shadow-2xl shadow-gray-700 rounded-2xl p-12">MANGODB</div>
                         </div> 
+             <div class="mt-10">  <div class="text-3xl text-start capitalize"><h1>secondry task</h1></div>
+             <div class="flex ">
+                 <div class="w-full m-4 shadow-2xl hover:shadow-2xl  shadow-gray-700 rounded-2xl p-12 transition-all duration-700 ease-in-out "><a href= "https://pawanrathore2.github.io/Task-Mern/task2.html">Layout Task</a></div>
+                   <div class="w-full m-4 shadow-2xl shadow-gray-700  rounded-2xl p-12"><a href= "https://pawanrathore2.github.io/Task-Mern/tailwind-task.html">Pralee technology website</a></div>
+                     <div class="w-full m-4 shadow-2xl shadow-gray-700 rounded-2xl p-12">JS</div>
+                       <div class="w-full m-4 shadow-2xl shadow-gray-700 rounded-2xl p-12">MANGODB</div>
+              </div> </div>           
   </section>
   <!-- task end -->
   <!-- Projects -->
-  <section class="section-project" id="skill-section"> 
-                        <div class="heading-h1"><h1>Projects</h1></div>
-                          <div class="skill-div">
-                               <div class="skill"></div>
-                                    <div class="skill">CSS</div>
-                                        <div class="skill">JS</div>
-                                        <div class="skill">MANGODB</div>
-</div>
-                          <div class="skill-div">
-                             <div class="skill"></div>
-                                    <div class="skill">CSS</div>
-                                <div class="skill">JS</div>
-                                  <div class="skill">MANGODB</div>
-                            </div>
+  <section id="projects" class="bg-gradient-to-br from-yellow-200  to-indigo-400 text-white" id="skill-section"> 
+    <div class="text-4xl text-center capitalize pb-8"><h1>projects</h1></div>
+    <div class="text-3xl text-start capitalize"><h1>Primary project</h1></div>
+    <div class="flex ">
+        <div class="w-full m-4 shadow-2xl shadow-gray-700 rounded-2xl p-12"><a href= "https://pawanrathore2.github.io/Task-Mern/task2.html">Layout Task</a></div>
+          <div class="w-full m-4 shadow-2xl shadow-gray-700 rounded-2xl p-12"><a href= "https://pawanrathore2.github.io/Task-Mern/tailwind-task.html">Pralee technology website</a></div>
+            <div class="w-full m-4 shadow-2xl shadow-gray-700 rounded-2xl p-12">JS</div>
+              <div class="w-full m-4 shadow-2xl shadow-gray-700 rounded-2xl p-12">MANGODB</div>
+     </div> 
+<div class="mt-10">  <div class="text-3xl text-start capitalize"><h1>Primary task</h1></div>
+<div class="flex ">
+<div class="w-full m-4 shadow-2xl shadow-gray-700  hover:shadow-2xl  rounded-2xl p-12"><a href= "https://pawanrathore2.github.io/Task-Mern/task2.html">Layout Task</a></div>
+<div class="w-full m-4 shadow-2xl shadow-gray-700 rounded-2xl p-12"><a href= "https://pawanrathore2.github.io/Task-Mern/tailwind-task.html">Pralee technology website</a></div>
+  <div class="w-full m-4 shadow-2xl shadow-gray-700 rounded-2xl p-12">JS</div>
+    <div class="w-full m-4 shadow-2xl shadow-gray-700 rounded-2xl p-12">MANGODB</div>
+</div> </div>           
 </section>
 <!-- Project End -->
  <!-- contact form -->
-  <section class="contect" id="contact-div">
-    <div class="contect-div">
-        <form action="#" method="post">
-            <h1 style="text-align: center;">
-                Contact Me
-            </h1>
-            <div class="form-div"> 
-         <label> 
-             Name:  <input type="text" placeholder="Enter Name">
-             </label>
-         
-          <label> 
-              Username :  <input type="text" placeholder="Enter Name">
-          </label>
-          </div>
-        </form>
-    </div>
-  </section>
+ <section id="contact" class="bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center min-h-screen"> 
+     <div class="bg-white p-8 rounded-xl  w-md ">
+    <h2 class="text-2xl font-bold text-gray-700 mb-6 text-center">Contact Us</h2>
+    
+    <form>
+        <!-- Name -->
+        <div class="mb-4">
+            <label class="block text-gray-600 font-semibold mb-2" for="name">Name</label>
+            <input type="text"  placeholder="Enter your name" class="w-full px-4 py-2 border rounded-lg  ">
+        </div>
+
+        <!-- Email -->
+        <div class="mb-4">
+            <label class="block text-gray-600 font-semibold mb-2" for="email">Email</label>
+            <input type="email"  placeholder="Enter your email" class="w-full px-4 py-2 border rounded-lg  ">
+        </div>
+
+        <!-- Subject -->
+        <div class="mb-4">
+            <label class="block text-gray-600 font-semibold mb-2" for="subject">Subject</label>
+            <input type="text"  placeholder="Enter the subject" class="w-full px-4 py-2 border rounded-lg  ">
+        </div>
+
+        <!-- Message -->
+        <div class="mb-4">
+            <label class="block text-gray-600 font-semibold mb-2" for="message">Message</label>
+            <textarea  placeholder="Write your message here..." rows="4" class="w-full px-4 py-2 border rounded-lg   "></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-300">
+            Send Message
+        </button>
+    </form>
+</div> 
+</section>
   </main>  
           
     </body>
